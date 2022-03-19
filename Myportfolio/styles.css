@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: #6d6868;
+    color: #000000;
+}
+.card{
+    margin: 10px 5px;
+}
+.neumorph{
+    background: #1610102a;
+    box-shadow: inset 20px 20px 60px #0e0c0c, inset -20px -20px 60px #000000;
+    
+}
+.contact-details{
+    list-style: none;
+}
+.fa{
+    color:skyblue;
+}
+.fab{
+    color:skyblue;
+}
+.content{
+    align-items: center;
+}
+.details{
+    text-align: center;
+}

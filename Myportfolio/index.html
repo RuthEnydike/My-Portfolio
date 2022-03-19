@@ -5,104 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./SocialIcon/css/fontawesome.css">
+    <link rel="stylesheet" href="./SocialIcon/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./SocialIcon/css/all.css">
 </head>
-<body>
+<body class="body">
     <div class="container">
-        <div class="row">
-            <div class="col-6 col-md-4">
-                <div>
-                    <img src="" alt="ruth image">
+        <!--=======PERSONAL DETAILS=======-->
+        <div class="row content ">
+            <div class="col-6 col-md-4 rounded border ">
+                <div class="details">
+                    <img src="images/ruth.jpg" class="rounded-circle img-fluid mx-auto center" alt="ruth image">
                     <h2>Enyadike <span>Ruth</span></h2>
                     <span class="badge bg-secondary">Front-End Developer</span>
                 </div>
-                <hr>
-                <ul>
-                    <li>Email<br>Ruthenyadike@gmail.com</li>
-                    <li>Phone<br>(+234) 812-486-8177</li>
-                    <li>Birthday<br>December 25</li>
-                    <li>Location<br>Omoku, Rivers State, Nigeria</li>
+                <hr class="bg-primary">
+                <ul class="contact-details  text-white">
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        Ruthenyadike@gmail.com
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        (+234) 812-486-8177
+                    </li>
+                    <li>
+                        <i class="fa fa-birthday-cake"></i>
+                        December 25
+                    </li>   
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        Omoku, Rivers State, Nigeria
+                    </li>
                 </ul>
                 <hr>
-                    <div class="row">
+                    <div class="row d-flex justify-content-center">
                         <div class="col-md-1">
-                            <img src="" alt="FB">
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
                         </div>
                         <div class="col-md-1">
-                            <img src="" alt="TW">
+                            <a href=""><i class="fab fa-twitter"></i></a>
                         </div>
                         <div class="col-md-1">
-                            <img src="" alt="IG">
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="col-md-1">
+                            <a href="https://wa.me/08124868177" target="blank">
+                            <i class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
             </div>
-            <div class=" container col-md-8">
-                <div>
-                    <h1>About Me</h1>
-                    <p>
-                        I'm a Front-End Developer from Rivers State, 
-                        Nigeria, I enjoy turning complex problems into simple, beautiful 
-                        and intuitive designs.          
-                    </p>
-                    <p>
-                        My job is to build your website so that it is functional 
-                        and user-friendly but at the same time attractive. Moreover,
-                         I add personal touch to your product and make sure that is 
-                         eye-catching and easy to use. My aim is to bring across your
-                          message and identity in the most creative way.
-                    </p>
+            <!--========ABOUT ME========-->
+            <div class="container col-md-8 border">
+                <div class="">
+                        <h1>About Me</h1>
+                        <p>
+                            I'm a Front-End Developer from Rivers State, 
+                            Nigeria, I enjoy turning complex problems into simple, beautiful 
+                            and intuitive designs.          
+                        </p>
+                        <p>
+                            My job is to build your website so that it is functional 
+                            and user-friendly but at the same time attractive. Moreover,
+                             I add personal touch to your product and make sure that is 
+                             eye-catching and easy to use. My aim is to bring across your
+                              message and identity in the most creative way.
+                        </p>
+                   <!--======SKILLS SECTION=========-->
                     <div>
                         <h1>What I'm Doing</h1>
-                        <div class="container text-center">
+                           
+                    <section class="skills">
+                        <div class="container">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <p>
-                                    <h5> Web Design</h5>
-                                    The most modern and high-quality made at a professional level.
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>
-                                        <h5>Web Development</h5>
-                                        High-quality development of site at the professional level.
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>
-                                        <h5>Graphics Design</h5>
-                                        I offer a wide range of various graphics designs, at a professional level
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <p>
-                                        <h5>User Interface Development</h5>
-                                        I make high-quality UI of any category at a professional level
-                                    </p>
+                               <div class="col-md-4">
+                                   <div class="card text-center neumorph rounded border border-dark">
+                                       <div class="card-body">
+                                           <h5 class="card-title">Web Design</h5>
+                                           <p>
+                                            The most modern and high-quality made at a professional level
+                                           </p>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="col-md-4">
+                                <div class="card text-center neumorph rounded border border-dark">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Web Development</h5>
+                                        <p>
+                                            High-quality development of site at the professional level. 
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="col-md-4">
+                                <div class="card text-center neumorph rounded border border-dark">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Graphic Design</h5>
+                                        <p>
+                                            I offer a wide range of various graphics designs, at a professional level
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                           
                         </div>
-                    </div>
-                    <!--Testimonial Carousel-->
+                    </section>
+
+                    <!--=======Testimonial Carousel=========-->
                     <h2>Testimonials</h2>     
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="container row">
+                        <div class="col-md-6 rounded border neumorph border-dark ">
                             <img src="ruth.jpg">
                             <p>
-                                <h5>Isreal Lucky</h5>
+                                <h5>Israel Lucky</h5>
                                 Ruth was hired to create a corporate identity.<br>
                                  we were very pleased with the work done
                             </p>
                         </div> 
-                        <div class="col-md-6">
+                        <div class="col-md-6 rounded border neumorph border-dark">
                             <img src="ruth.jpg">
                             <p>
-                                <h5>Digi bobo</h5>
+                                <h5>  
+                                    Favour Williams
+                                </h5>
                                 Ruth was hired to create a corporate identity.<br>
                                  we were very pleased with the work done
                             </p>
                         </div>
                     </div>
-                    <!--Clients Carousel-->
+                    <!--=====Clients Carousel======-->
                     <h3>Clients</h3>
                     <div class="row">
                         <div class="col-md-1">
